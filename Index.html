@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TJ's Pizzeria</title>
+<style>
+    body{
+        background-color: darkred;
+    }
+   label{
+        color: black;
+    }
+    legend{
+        color: black;
+    }
+    h1{
+        color: black;
+    }
+
+</style>
+</head>
+<body>
+    <h1>TJ's Pizzeria</h1>
+    <!-- input boxes -->
+    <form action="">
+        <fieldset>
+        <legend>User Information</legend>
+           <ul>
+        <li><label for="username">User Name </label>
+     <input type="text" id="username" name="user.name" /></li>
+   <li>
+    <label for="password">Password </label>
+    <input type="password" id="password" name="password" /></li>
+   </li>
+    </ul>
+    </fieldset>
+    <!-- Radio Buttons -->
+    <fieldset>
+<legend>What drink do you want?</legend>
+<ul>
+<li>
+<input type="radio" id="coke" name="coke" value="coke" unchecked>
+<label for="coke">Coke</label><br></li>
+ <li><input type="radio" id="dr.pepper" name="dr.pepper" value="dr.pepper" unchecked>
+<label for="dr.pepper">Dr. Pepper</label><br></li>
+<li><input type="radio" id="mtndew" name="mtndew" value="mtndew" unchecked>
+<label for="mtndew">Mountain Dew</label><br></li>
+<li><input type="radio" id="sprite" name="sprite" value="sprite" unchecked>
+    <label for="sprite">Sprite</label><br>
+</li>
+</ul>
+    <img src="../Picutres/html/Images/cocacola_PNG12.png" width="125" height="75" />
+</fieldset>
+    <!-- Checkboxes -->
+    <fieldset>
+        <legend>Pizza Preference</legend>
+        <ul>
+    <li><input type="checkbox" id="cheese" name="cheese" value="cheese" unchecked>
+        <label for="cheese">Cheese</label><br></li>
+    <li><input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni" unchecked>
+        <label for="pepperoni">Pepperoni</label><br></li>
+    <li><input type="checkbox" id="sausage" name="sausage" value="sausage" unchecked>
+        <label for="sausage">Sausage</label><br></li>
+     <li><input type="checkbox" id="ham" name="ham" value="ham" unchecked>
+        <label for="ham">Ham</label><br></li>
+        </ul>
+    <img src="../Picutres/html/Images/pizza_PNG43985.png" width="150" height="150" />
+    </fieldset>
+    <!-- Text area -->
+    <fieldset>
+<legend>Special Instructions</legend>
+<ul>
+    <li><label for="instrcutions">Special Instructions:</label><br>
+    <textarea id="instrcutions" name="instrcutions" value="instrcutions"></textarea></li>
+</ul>
+<button type=”submit”>Complete Order</button>
+    </fieldset>
+</body>
+</html>
